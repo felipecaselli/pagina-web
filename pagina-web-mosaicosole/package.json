@@ -1,0 +1,20 @@
+{
+    "name":  "pagina-web-mosaicosole",
+    "type":  "module",
+    "version":  "0.0.1",
+    "engines":  {
+                    "node":  ">=22.12.0"
+                },
+    "scripts":  {
+                    "preview":  "astro preview",
+                    "build":  "astro build",
+                    "dev":  "astro dev"
+                },
+    "description":  "```sh npm create astro@latest -- --template minimal ```",
+    "main":  "index.js",
+    "author":  "",
+    "license":  "ISC",
+    "devDependencies":  {
+                            "astro":  "^6.0.8"
+                        }
+}

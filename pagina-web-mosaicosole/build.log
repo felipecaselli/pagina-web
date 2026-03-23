@@ -1,0 +1,62 @@
+﻿
+> pagina-web-mosaicosole@0.0.1 build
+> astro build
+
+node.exe : Unable to read C:\Users\felic\OneD
+rive\Escritorio\pagina-web\pagina-web-mosaico
+sole\package.json
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Users\felic\AppData\Roaming\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified:  
+   (Unable to read ...le\package.json:Strin  
+  g) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandE 
+   rror
+ 
+  [1mLocation:[22m
+    [4mC:\Users\felic\OneDrive\Escritorio\pa
+gina-web\pagina-web-mosaicosole\node_modules\
+vitefu\src\index.js:41:11[24m
+  [1mStack trace:[22m
+[2m    at file:///C:/Users/felic/OneDrive/Es
+critorio/pagina-web/pagina-web-mosaicosole/no
+de_modules/vitefu/src/index.js:41:11
+    at async createVite (file:///C:/Users/fel
+ic/OneDrive/Escritorio/pagina-web/pagina-web-
+mosaicosole/node_modules/astro/dist/core/crea
+te-vite.js:56:27)
+    at async AstroBuilder.run (file:///C:/Use
+rs/felic/OneDrive/Escritorio/pagina-web/pagin
+a-web-mosaicosole/node_modules/astro/dist/cor
+e/build/index.js:187:23)
+    at async build (file:///C:/Users/felic/On
+eDrive/Escritorio/pagina-web/pagina-web-mosai
+cosole/node_modules/astro/dist/cli/build/inde
+x.js:29:3)
+    at async cli (file:///C:/Users/felic/OneD
+rive/Escritorio/pagina-web/pagina-web-mosaico
+sole/node_modules/astro/dist/cli/index.js:234
+:5)[22m
+  [1mCaused by:[22m
+[2m  Unexpected token '∩╗┐', "∩╗┐{
+    "n"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at async crawlFrameworkPkgs (file:///C:/U
+sers/felic/OneDrive/Escritorio/pagina-web/pag
+ina-web-mosaicosole/node_modules/vitefu/src/i
+ndex.js:40:19)
+    at async AstroBuilder.setup (file:///C:/U
+sers/felic/OneDrive/Escritorio/pagina-web/pag
+ina-web-mosaicosole/node_modules/astro/dist/c
+ore/build/index.js:89:24)
+    at async build (file:///C:/Users/felic/On
+eDrive/Escritorio/pagina-web/pagina-web-mosai
+cosole/node_modules/astro/dist/core/build/ind
+ex.js:48:3)
+    at async runCommand (file:///C:/Users/fel
+ic/OneDrive/Escritorio/pagina-web/pagina-web-
+mosaicosole/node_modules/astro/dist/cli/index
+.js:206:7)[22m
